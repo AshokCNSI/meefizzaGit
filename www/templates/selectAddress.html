@@ -1,0 +1,43 @@
+<ion-modal-view class="bg-color">
+     <ion-header-bar style="background-image: none !important;background-color: #47a8c3;">
+  <i class="ion-person-add button button-clear" ng-click = "addAddress()" style="color: black;font-size: 25px;"></i>
+  <div class="title logo-font" style="left: 25px;right: 40px;font-size: 25px;">Select Address</div>
+</ion-header-bar>
+	
+   <ion-content>
+   <ion-list>
+  <ion-radio ng-model="choice" ng-value="'A'">
+  <div class="row" style="margin-bottom:7px;">
+	<div class="col">
+	 <p class="label-paragraph-color"><span><b>G.Ashokkumar</b></span></p>
+	 <p class="label-paragraph-color"><span>Flat F1, Melody Arcade</span></p>
+	 <p class="label-paragraph-color"><span>Vadapalani</span></p>
+	 <p class="label-paragraph-color"><span>Chennai</span></p>
+	 <p class="label-paragraph-color"><span>Pincode - 600026</span></p>
+	 <p class="label-paragraph-color"><span>TamilNadu</span></p>
+	 <p class="label-paragraph-color"><span>Mobile - <b>9942570269</b></span></p>
+	</div>
+	
+	</div>
+  </ion-radio>
+  <ion-radio ng-model="choice" ng-value="'B'">
+  <div class="row" style="margin-bottom:7px;">
+	<div class="col">
+	 <p class="label-paragraph-color"><span><b>G.Ashokkumar</b></span></p>
+	 <p class="label-paragraph-color"><span>Flat F1, Melody Arcade</span></p>
+	 <p class="label-paragraph-color"><span>Vadapalani</span></p>
+	 <p class="label-paragraph-color"><span>Chennai</span></p>
+	 <p class="label-paragraph-color"><span>Pincode - 600026</span></p>
+	 <p class="label-paragraph-color"><span>TamilNadu</span></p>
+	 <p class="label-paragraph-color"><span>Mobile - <b>9942570269</b></span></p>
+	</div>
+	
+	</div>
+  </ion-radio>
+</ion-list>
+     
+   </ion-content>
+     <ion-footer-bar class="footer-button-style">
+<p class="text-center label-font" style="width:100%;margin-top: 8px;" ng-click = "hideModal()"><span>Select Address to Deleiver!..</span></p>
+</ion-footer-bar>
+</ion-modal-view>

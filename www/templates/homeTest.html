@@ -1,0 +1,141 @@
+<ion-view class="bg-color">
+
+  <ion-header-bar style="background-image: none !important;background-color: #47a8c3;">
+  <i class="ion-navicon-round button button-clear" style="color: black;font-size: 25px;"></i>
+  <div class="title logo-font" style="left: 25px;right: 40px;font-size: 25px;">meefizza</div>
+  <i class="ion-android-cart button button-clear" style="color: black;font-size: 25px;"></i>
+</ion-header-bar>
+
+  <ion-content class="padding" style="padding:0px;">
+
+<div style="padding: 0px 5px 5px 5px;margin-bottom:10px;">
+<div class="list list-inset">
+  <label class="item item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text" placeholder="Search" ng-model="search" name="search"/>
+  </label>
+</div>
+</div>
+<div class="row" style="text-align:center;">
+  <div class="col"> 
+  <a href="#productList">
+  <img style="margin: auto;width: 40%;" src="img/icons/color/sea-food.png"><br>
+	<p class="iconname pBold" style="color:white;">Sea Fish</p>
+  </a>
+  </div>
+  <div class="col">
+  <a href="#productSummary">
+  <img style="margin: auto;width: 40%;" src="img/icons/color/river-food.png"><br>
+	<p class="iconname pBold" style="color:white;">River Fish</p>
+	</a>
+  </div>
+  <div class="col"> 
+  <a href="#myOrder">
+  <img style="margin: auto;width: 40%;" src="img/icons/color/wholesale-order.png"><br>
+	<p class="iconname pBold" style="color:white;">Wholesale</p>
+  </a>
+  </div>
+  <div class="col">
+  <a href="#orderSuccess">
+  <img style="margin: auto;width: 40%;" src="img/icons/color/my-order.png"><br>
+	<p class="iconname pBold" style="color:white;">My Orders</p>
+  </a>
+  </div>
+</div>
+
+	<!-- does-continue="true" auto-play="true" slide-interval="1000" -->
+        <ion-slide-box on-slide-changed="slideChanged(index)" style="height:250px;" does-continue="true" auto-play="true" slide-interval="3000">
+          <ion-slide style="padding-top: 0px;">
+              <h3 style="margin-top: 15px;"><span style="color: #e42112;">20%</span> offer on <span style="color: #11c1f3">Sea Fish</span></h3>
+			  <div>
+				<img src="img/fish/sea-fish.png" style="width:100%;">
+				</div>
+            <p>
+              We've worked super hard to make you happy.
+            </p>
+          </ion-slide>
+		  <ion-slide style="padding-top: 0px;">
+              <h3 style="margin-top: 15px;">10% offer on River Fish</h3>
+			   <div>
+				<img src="img/fish/river-fish.png" style="width:100%;">
+				</div>
+            <p>
+              We've worked super hard to make you happy.
+            </p>
+          </ion-slide>
+		   <ion-slide style="padding-top: 0px;">
+              <h3 style="margin-top: 15px;">5% offer on Prawns</h3>
+			   <div>
+				<img src="img/fish/prawn.png" style="width:100%;">
+				</div>
+            <p>
+              We've worked super hard to make you happy.
+            </p>
+          </ion-slide>
+		  <ion-slide style="padding-top: 0px;">
+              <h3 style="margin-top: 15px;">15% offer on Grabs</h3>
+			  <div>
+				<img src="img/fish/crab.png" style="width:100%;">
+				</div>
+            <p>
+              We've worked super hard to make you happy.
+            </p>
+          </ion-slide>
+        </ion-slide-box>
+	<div class="content text-align label-font" style="margin-top:20px;"> 
+      <p>Deal of the Day</p>
+	  <ion-slide-box on-slide-changed="slideChanged(index)" does-continue="false" auto-play="false" slide-interval="2000">
+          <ion-slide style="padding-top: 0px;">
+             
+				<div class="row">
+				  <div class="col" style="border-left: 1px solid;">
+				  
+					<h5><p style="font-size:10px;">Rs.500</p><span>Vaaval</span><p style="font-size:10px;">Sea Food</p></h5>
+					
+					<div>
+						<img src="img/fish/sea-fish.png" style="width:100%;">
+					</div>
+					<p>
+				  </div>
+				  <div class="col" style="border-left: 1px solid;">
+				  <h5><p style="font-size:10px;">Rs.500</p><span>Prawns</span><p style="font-size:10px;">Sea Food</p></h5>
+					<div>
+						<img src="img/fish/prawn.png" style="width:100%;">
+					</div></div>
+				  <div class="col" style="border-left: 1px solid;border-right: 1px solid;">
+				  <h5><p style="font-size:10px;">Rs.500</p><span>Crab</span><p style="font-size:10px;">Sea Food</p></h5>
+					<div>
+						<img src="img/fish/crab.png" style="width:100%;">
+					</div>
+				  </div>
+				</div>
+          </ion-slide>
+		  <ion-slide style="padding-top: 0px;">
+             
+				<div class="row">
+				  <div class="col" style="border-left: 1px solid;">
+				  
+					<h5><p style="font-size:10px;">Rs.500</p><span>Vaaval</span><p style="font-size:10px;">Sea Food</p></h5>
+					
+					<div>
+						<img src="img/fish/sea-fish.png" style="width:100%;">
+					</div>
+					<p>
+				  </div>
+				  <div class="col" style="border-left: 1px solid;">
+				  <h5><p style="font-size:10px;">Rs.500</p><span>Prawns</span><p style="font-size:10px;">Sea Food</p></h5>
+					<div>
+						<img src="img/fish/prawn.png" style="width:100%;">
+					</div></div>
+				  <div class="col" style="border-left: 1px solid;border-right: 1px solid;">
+				  <h5><p style="font-size:10px;">Rs.500</p><span>Crab</span><p style="font-size:10px;">Sea Food</p></h5>
+					<div>
+						<img src="img/fish/crab.png" style="width:100%;">
+					</div>
+				  </div>
+				</div>
+          </ion-slide>
+        </ion-slide-box>
+    </div>
+  </ion-content>
+</ion-view>

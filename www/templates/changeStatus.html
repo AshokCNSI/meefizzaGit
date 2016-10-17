@@ -1,0 +1,24 @@
+<ion-modal-view class="bg-color">
+     <ion-header-bar style="background-image: none !important;background-color: #47a8c3;">
+  <i class="ion-stats-bars button button-clear" style="color: black;font-size: 25px;"></i>
+  <div class="title logo-font" style="left: 25px;right: 40px;font-size: 25px;">Change Status</div>
+</ion-header-bar>
+	
+   <ion-content>
+   <ion-list>
+  <ion-radio ng-model="choice" ng-value="'A'">
+  <p class="label-paragraph-color"><span>Cleaning</span></p>
+  </ion-radio>
+  <ion-radio ng-model="choice" ng-value="'B'">
+   <p class="label-paragraph-color"><span>Packing</span></p>
+  </ion-radio>
+  <ion-radio ng-model="choice" ng-value="'B'">
+   <p class="label-paragraph-color"><span>Out for Deleivery</span></p>
+  </ion-radio>
+</ion-list>
+     
+   </ion-content>
+     <ion-footer-bar class="footer-button-style">
+<p class="text-center label-font" style="width:100%;margin-top: 8px;" ng-click = "hideModal()"><span>Select Status</span></p>
+</ion-footer-bar>
+</ion-modal-view>

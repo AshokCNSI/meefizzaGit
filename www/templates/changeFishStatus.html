@@ -1,0 +1,64 @@
+<ion-modal-view class="bg-color">
+     <ion-header-bar style="background-image: none !important;background-color: #47a8c3;">
+  <i class="ion-stats-bars button button-clear" style="color: black;font-size: 25px;"></i>
+  <div class="title logo-font" style="left: 25px;right: 40px;font-size: 25px;">Change Fish Status</div>
+</ion-header-bar>
+	
+   <ion-content>
+   <div class="row" style="background-color: white;">
+	<div class="col">
+	 <p class="label-paragraph-color"><span>Fish Name</span><span style="float:right;"><input type="text" placeholder="Please Enter Fish Name"/></span></p>	 
+	</div>
+	</div>
+    <div class="row" style="background-color: white;">
+	<div class="col">
+		<p class="label-paragraph-color"><span>Quantity</span><span style="float:right;"><input type="text" placeholder="Please Enter Quantity"/></span></p>	
+	</div>
+	</div>
+	<div class="row" style="background-color: white;">
+	<div class="col">
+		<p class="label-paragraph-color"><span>Price</span><span style="float:right;"><input type="text" placeholder="Please Enter Price"/></span></p>	
+	</div>
+	</div>
+	<div class="row" style="background-color: white;">
+	<div class="col">
+		<p class="label-paragraph-color"><span>Discount</span><span style="float:right;"><input type="text" placeholder="Please Enter Discount"/></span></p>	
+	</div>
+	</div>
+	<div class="row" style="background-color: white;">
+	<div class="col">
+		<p class="label-paragraph-color"><span>Fish Type:</span>
+		<span style="float:right;">
+		<ion-list>
+		  <ion-radio ng-model="choice" ng-value="'A'" style="line-height: 0.5;width: 140px;">
+		  Sea
+		  </ion-radio>
+		  <ion-radio ng-model="choice" ng-value="'A'" style="line-height: 0.5;width: 140px;">
+		  River
+		  </ion-radio>
+		</ion-list>
+		</span>
+		</p>	
+	</div>
+	</div>
+	<div class="row" style="background-color: white;">
+	<div class="col">
+		<p class="label-paragraph-color"><span>Available:</span>
+		<span style="float:right;">
+		<ion-list>
+		  <ion-radio ng-value="'A'" style="line-height: 0.5;width: 140px;">
+		  Yes
+		  </ion-radio>
+		  <ion-radio ng-value="'A'" style="line-height: 0.5;width: 140px;">
+		  No
+		  </ion-radio>
+		</ion-list>
+		</span>
+		</p>	
+	</div>
+	</div>
+   </ion-content>
+     <ion-footer-bar class="footer-button-style">
+<p class="text-center label-font" style="width:100%;margin-top: 8px;" ng-click = "hideModal()"><span>Change Status</span></p>
+</ion-footer-bar>
+</ion-modal-view>

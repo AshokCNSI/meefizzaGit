@@ -1,0 +1,324 @@
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper p.detail {
+  bottom: -4%;
+  color: black;
+  font-family: RythmusRegular;
+  font-size: 1.25em;
+  left: 0;
+  padding: 0.25em 0.75em;
+  position: absolute;
+  width: 100%;
+  background : rgba(0,0,0,0.2);
+}
+
+.wrapper p {
+  bottom: -10%;
+  font-family: RythmusRegular;
+  font-size: 1.25em;
+  left: 0;
+  padding: 0.25em 0.75em;
+  position: absolute;
+  width: 100%;
+}
+
+.bg-color{
+background-color : #47a8c3;
+}
+
+.logo-font
+{
+color: cornsilk;
+font-size: -webkit-xxx-large;
+text-align: center;
+font-family:RythmusRegular;
+}
+
+.logo-center
+{
+display: block;
+margin: auto;
+width: 125px;
+}
+
+.logo-margin-main{
+margin-top:60%;
+}
+
+.logo-margin-login{
+margin-top:30%;
+}
+
+.label-font{
+font-family : CabinCondensed;
+color: cornsilk;
+font-size:20px !important;
+}
+
+.button-style{
+background-color: #114fb7 !important;
+border-radius: 15px;
+font-family:RythmusRegular;
+font-size:20px !important;
+}
+
+.footer-button-style{
+background-color: #114fb7 !important;
+font-family:RythmusRegular;
+font-size:20px !important;
+}
+
+.login-form{
+margin-left: 30px;
+margin-right: 30px;
+}
+
+.input-border{
+border:none;
+border-bottom: 1px solid #0b305a;
+padding: 15px 0 5px 0px;
+}
+
+.bg-border-none
+{
+background:none;
+border:none;
+}
+.input-background{
+background:none;
+}
+
+.label-font-size{
+font-size:20px;
+}
+
+.label-paragraph-color{
+color:#0b305a;
+font-size:17px !important;
+}
+
+.label-color{
+color:cornsilk;
+}
+
+.a-label-color
+{
+color: cornsilk;
+font-family:CabinCondensed;
+font-size:13px !important;
+}
+.input-color{
+color: cornsilk;
+font-family:CabinCondensed;
+font-size:20px !important;
+}
+
+.button.ng-hide{
+  display:none;
+}
+
+.text-align
+{
+text-align:center;
+}
+
+.margin-top-10{
+margin-top: 10px;
+}
+
+.font-rhymbs
+{
+font-family:RythmusRegular;
+}
+
+.font-size-20{
+font-size:20px;
+}
+
+.dealSilder
+{
+width:100px !important;
+}
+.slider-pager{
+display:none;
+}
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+input.qtyplus { width:25px; height:25px;}
+input.qtyminus { width:25px; height:25px;}
+/* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: RythmusRegular;
+    src: url('../fonts/RythmusRegular.ttf');
+}
+
+@font-face {
+    font-family: Dyane;
+    src: url('../fonts/Dyane Regular.ttf');
+}
+
+@font-face {
+    font-family: Rabelo;
+    src: url('../fonts/Rabelo Regular.otf');
+}
+
+@font-face {
+    font-family: Oswaldesque;
+    src: url('../fonts/Oswaldesque Regular.ttf');
+}
+
+@font-face {
+    font-family: CabinCondensed;
+    src: url('../fonts/CabinCondensed-Regular.ttf');
+}
+
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #dad6c5;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #dad6c5;
+   opacity:  1;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #dad6c5;
+   opacity:  1;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:   #dad6c5;
+}
+
+.error-container {
+  margin: 5px 0;
+}
+ 
+.error-container:last-child {
+    margin: 5px 0 0;
+}
+ 
+.error {
+  padding: 0px 16px;
+  font-family: CabinCondensed;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #ef473a;
+  vertical-align: middle;
+  font-weight : bold;
+  letter-spacing: 1px;
+}
+ 
+.error i {
+  font-size: 24px;
+  color: #B83E2C;  
+  vertical-align: middle;
+}
+ 
+.last-error-container > .error {
+  padding: 0px 16px 0;
+}
+ 
+.has-errors {
+  border-bottom: 3px solid #B83E2C;
+}
+ 
+.no-errors {
+  border-bottom: 3px solid green;
+}
+
+.slider {
+  height: 100%;
+}
+.slider-slide {
+  padding-top: 80px;
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+#logo {
+  margin: 30px 0px;
+}
+
+#list {
+  width: 170px;
+  margin: 30px auto;
+  font-size: 20px;
+}
+#list ol {
+  margin-top: 30px;
+}
+#list ol li {
+  text-align: left;
+  list-style: decimal;
+  margin: 10px 0px;
+}
+
+ul.rating li {
+  display: inline;
+  border: 0px;
+  background: none;
+  padding: 5px 2px;
+}
+ul.rating li i {
+  font-size: 15px;
+  color : #ffc900;
+}
+
+ .container {
+  }
+  .progressbar {
+      counter-reset: step;
+  }
+  .progressbar li {
+      list-style-type: none;
+      width: 25%;
+      float: left;
+      font-size: 12px;
+      position: relative;
+      text-align: center;
+      text-transform: uppercase;
+      color: #7d7d7d;
+  }
+  .progressbar li:before {
+      width: 30px;
+      height: 30px;
+      content: counter(step);
+      counter-increment: step;
+      line-height: 30px;
+      border: 2px solid #7d7d7d;
+      display: block;
+      text-align: center;
+      margin: 0 auto 10px auto;
+      border-radius: 50%;
+      background-color: white;
+  }
+  .progressbar li:after {
+      width: 100%;
+      height: 2px;
+      content: '';
+      position: absolute;
+      background-color: #7d7d7d;
+      top: 15px;
+      left: -50%;
+      z-index: -1;
+  }
+  .progressbar li:first-child:after {
+      content: none;
+  }
+  .progressbar li.complete {
+      color: green;
+  }
+  .progressbar li.complete:before {
+      border-color: #55b776;
+  }
+  .progressbar li.complete + li:after {
+      background-color: #55b776;
+  }

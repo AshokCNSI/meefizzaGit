@@ -1,0 +1,50 @@
+<ion-view class="bg-color">
+  <ion-content class="padding" scroll="false">
+  <form novalidate="" name="loginForm" ng-submit="login(loginForm)">
+  <div class="logo-margin-login">
+  <img src="img/logo4.png" class="logo-center">
+  <p class="logo-font"><i class="ion-spoon"></i> meefizza</p>
+  </div>
+  <div class="list login-form">
+  <label class="item item-input input-border input-background">
+    <i class="icon ion-person"></i>&nbsp;&nbsp;
+    <input type="email" placeholder="Username" class="input-color" name="username" ng-model="input.username" required>
+  </label>
+  <div class="error-container" ng-show="loginForm.username.$error && loginForm.$submitted" ng-messages="loginForm.username.$error">
+              <div ng-messages-include="templates/error-list.html"></div>
+            </div>
+   <label class="item item-input input-border input-background">
+    <i class="icon ion-ios-locked"></i>&nbsp;&nbsp; 
+    <input type="password" placeholder="Password" class="input-color" name="password" ng-model="input.password" required>
+  </label>
+  <div class="error-container last-error-container" ng-show="loginForm.password.$error && loginForm.$submitted" ng-messages="loginForm.password.$error">
+                <div ng-messages-include="templates/error-list.html"></div> 
+            </div>  
+</div>
+<p class="label-font text-align label-paragraph-color"><a class="a-label-color" href="#forgot-password">Forget Password?</a></p>
+<p class="label-font text-align label-paragraph-color">If your are not a member <a class="a-label-color" href="#registration">Please Click Here</a></p>
+<div class="error-container last-error-container text-center" style="display:none;" id="userError">
+		<div class="error">
+			<i class="ion-information-circled"></i> 
+			Email or Password is Incorrect
+		</div>
+    </div>
+<div class="list login-form">
+ <label class="item item-input item-floating-label bg-border-none">
+    <button class="button button-block button-positive button-style" type="submit">
+  Delight Inside !
+</button>
+  </label>
+  </div>
+  </form>
+  <div class="list login-form">
+  <label class="item item-input item-floating-label bg-border-none" id="remember">
+  <div class="item item-icon-right label-font bg-border-none">
+    Keep me Logged in..
+    <i class="icon ion-ios-information" style="font-size: larger;"></i>
+  </div>
+  </label>
+  </div>
+  <a href="#homeTest">home</a><a href="#adminOrderList">adminProductList</a><a href="#adminOrderDetail">adminProductDetail</a><a href="#assigneeOrderList">assigneeProductList</a><a href="#assigneeOrderDetail">assigneeProductDetail</a><a href="#adminAllItemList">adminAllItemList</a><a href="#productDetail">productDetail</a>
+  </ion-content>
+</ion-view>
